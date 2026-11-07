@@ -1,0 +1,112 @@
+
+html {
+    font-size: 14px;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    min-height: 100vh;
+    margin-bottom: 0;
+    background: linear-gradient(135deg, #eef4ff, #f8faff);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #243247;
+}
+
+/* navigation */
+
+.navbar {
+    background-color: white !important;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.navbar-brand {
+    color: #1e3a5f !important;
+    font-weight: 600;
+}
+
+/* main */
+
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+    main h2 {
+        color: #1e3a5f;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+        main h2:first-child {
+            text-align: center;
+            font-size: 34px;
+            margin-bottom: 40px;
+        }
+
+/* table */
+
+.table {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    border: none;
+}
+
+    .table thead {
+        --bs-table-bg: #3b5998;
+        --bs-table-color: white;
+        --bs-table-border-color: #3b5998;
+    }
+
+    .table th,
+    .table td {
+        padding: 15px;
+        border: none;
+        border-bottom: 1px solid #e5e7eb;
+        vertical-align: middle;
+    }
+
+    .table tbody tr:hover:not(.table-danger) {
+        --bs-table-bg: #f1f5ff;
+    }
+
+    .table tbody tr.table-danger {
+        --bs-table-bg: #f8d7da;
+        --bs-table-color: #243247;
+    }
+    .table thead th {
+        color: white;
+    }
+
+/* pie */
+
+main img.img-fluid {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+
+/* footer */
+footer.footer {
+    position: static !important;
+    bottom: auto !important;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+    line-height: normal;
+    color: #64748b;
+}
