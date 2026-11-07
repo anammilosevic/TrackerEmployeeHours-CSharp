@@ -22,10 +22,12 @@ This is a simple ASP.NET Core MVC application that shows employee working hours 
 2. Right-click the project and select "Manage User Secrets".
 3. Add the API key:
 
-{
-  "ApiSettings": {
-    "Key": "YOUR_API_KEY"
-  }
-}
+   ```json
+   {
+     "ApiSettings": {
+       "Key": "YOUR_API_KEY"
+     }
+   }
+   ```
 
 4. Run the application!
